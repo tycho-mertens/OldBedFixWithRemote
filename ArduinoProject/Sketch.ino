@@ -69,7 +69,7 @@ void loop() {
       cmd.trim();
 
       //Switch statements won't work here with arduino String objects,
-      //not sure why and I can't be bothered to put anymore time into it to figure it out
+      //There is also a better way to do this, but this works
       if(cmd.equals("legsUp")){
         //Head up command
         tc.println("Operation: Legs UP");
