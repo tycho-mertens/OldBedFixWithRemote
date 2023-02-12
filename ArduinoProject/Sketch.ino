@@ -6,9 +6,9 @@
 #define HEAD_DOWN 12
 
 
-char ssid[] = "YourWifiNetwork";
-char pass[] = "YourPassword";
-IPAddress ip(10, 0, 0, 103); 
+char ssid[] = "YourWifiNetwork";  // Put your own Wifi name in here
+char pass[] = "YourPassword";     // Put your own Wifi password in here
+IPAddress ip(10, 0, 0, 102);      // Assign static ip (this ip is also staticly set in the android app)
 
 WiFiServer server(7700);
 int status = WL_IDLE_STATUS;
@@ -71,27 +71,21 @@ void loop() {
       //Switch statements won't work here with arduino String objects,
       //There is also a better way to do this, but this works
       if(cmd.equals("legsUp")){
-        //Head up command
         tc.println("Operation: Legs UP");
         execute(LEGS_UP, p.param);
       }else if(cmd.equals("legsDown")){
-        //Head up command
         tc.println("Operation: Legs DOWN");
         execute(LEGS_DOWN, p.param);
       }else if(cmd.equals("headUp")){
-        //Head up command
         tc.println("Operation: Head UP");
         execute(HEAD_UP, p.param);
       }else if(cmd.equals("headDown")){
-        //Head up command
         tc.println("Operation: Head DOWN");
         execute(HEAD_DOWN, p.param);
       }else if(cmd.equals("bothUp")){
-        //Both up command
         tc.println("Operation: Both UP");
         executeBoth(HEAD_UP, LEGS_UP, p.param);
       }else if(cmd.equals("bothDown")){
-        //Both down command
         tc.println("Operation: Both DOWN");
         executeBoth(HEAD_DOWN, LEGS_DOWN, p.param);
       }
