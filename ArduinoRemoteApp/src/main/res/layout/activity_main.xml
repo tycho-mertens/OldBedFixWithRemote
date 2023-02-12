@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/headUp"
+        android:layout_width="175dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="152dp"
+        android:text="UP"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/headDown"
+        android:layout_width="175dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="152dp"
+        android:text="DOWN"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/legsUp"
+        android:layout_width="175dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="336dp"
+        android:text="UP"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="400dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="268dp"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="none"
+        android:text="LEGS"
+        android:textSize="34sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/legsDown"
+        android:layout_width="175dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="336dp"
+        android:text="DOWN"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="400dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="444dp"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="none"
+        android:text="BOTH"
+        android:textSize="34sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/bothUp"
+        android:layout_width="175dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="516dp"
+        android:text="UP"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bothDown"
+        android:layout_width="175dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="516dp"
+        android:text="DOWN"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="400dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="1dp"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="none"
+        android:text="HEAD"
+        android:textSize="34sp"
+        app:layout_constraintTop_toBottomOf="@+id/connectionTxt"
+        tools:layout_editor_absoluteX="2dp" />
+
+    <TextView
+        android:id="@+id/connectionTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="76dp"
+        android:text="DISCONNECTED"
+        android:textColor="#FF0000"
+        android:textColorLink="#FF0000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
