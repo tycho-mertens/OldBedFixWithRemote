@@ -3,7 +3,7 @@ A relative of mine has an old bed that has a controller that is connected with a
  that would control the Arduino from a phone.
 
 Diagram for hardware:
-</br><img src="https://raw.githubusercontent.com/tycho-mertens/OldBedFixWithRemote/main/Untitled%20Sketch%202_bb.jpg" width="500em"/>
+</br><img src="https://raw.githubusercontent.com/tycho-mertens/OldBedFixWithRemote/main/Hardware%20Diagram.jpg" width="500em"/>
 
 Diagram for software:
-</br><img src="https://raw.githubusercontent.com/tycho-mertens/OldBedFixWithRemote/main/Untitled%20Sketch%202_bb.jpg" width="500em"/>
+</br><img src="https://raw.githubusercontent.com/tycho-mertens/OldBedFixWithRemote/main/Software%20Diagram.png" width="500em"/>
