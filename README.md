@@ -20,4 +20,4 @@ Hardware used:
 ## Software side of things
 We use an Arduino, that is connected to the local Wi-Fi (using 2.4GHz), to control the bed. To be able to control the Arduino, remotely, I decided to make a simple Android app. 
 </br>I decided to use Telnet for communication between the app and the Arduino, because it had the fastest response times.
-</br><img src="https://raw.githubusercontent.com/tycho-mertens/OldBedFixWithRemote/main/Software%20Diagram.png" width="500em"/>
+</br><img src="https://raw.githubusercontent.com/tycho-mertens/OldBedFixWithRemote/main/Software_Diagram.png" width="500em"/>
